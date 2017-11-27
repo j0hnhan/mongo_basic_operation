@@ -18,7 +18,7 @@ beforeEach((done) => {
 		blogposts.drop(() => {
 			comments.drop(() => {
 				done();
-			})
-		})
-	})
+			});
+		});
+	});
 });
